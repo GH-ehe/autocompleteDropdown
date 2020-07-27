@@ -20,3 +20,8 @@ scss/.sass-cache/*
 */dist/LICENSE
 */README.html
 */dist/index.html
+
+node_modules/
+bower_components/
+bower_components
+yarn.lock
