@@ -62,12 +62,11 @@
 					
 					if($option.is(':selected') && !$option.hasClass('label'))
 					{
-						self.selected = {
+						self.selected.push({
 							index: i,
 							value: $option.val(),
 							title: $option.text()
-						};
-						self.selected.push(selectedData);
+						});
 						self.focusIndex = i;
 					}
 				});
